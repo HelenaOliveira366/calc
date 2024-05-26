@@ -217,6 +217,14 @@ body{
 
 
 /* RESPONSIVIDADE */
+@media screen and (orientation:landscape) {
+    .container{
+        flex-direction: row;
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .container{
         flex-direction: column;
@@ -261,12 +269,4 @@ body{
     .container .hero-section{
         width: 350px;
     } 
-}
-
-@media screen and (orientation:landscape) {
-    .container{
-        flex-direction: row;
-        max-width: 80%;
-        max-height: 80%;
-    }
 }
